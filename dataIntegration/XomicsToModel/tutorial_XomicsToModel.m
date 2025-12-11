@@ -26,7 +26,7 @@
 % Select a solver suitable for solving linear (LP) and quadratic (QP) optimisation 
 % problems, e.g., mosek, gurobi, ibm_cplex, etc.
 
-[~, ~] = changeCobraSolver('mosek', 'all', 0);
+[~, ~] = changeCobraSolver('g', 'all', 0);
 % Generic model
 % The COBRA model Recon3D${\;}^4$, representing human metabolic reconstruction, 
 % a can be found in a file with the extension ".mat". Recon3D${\;}^1$ , which 
